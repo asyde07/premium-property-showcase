@@ -77,19 +77,48 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Jorge Herrera Imóveis | Alto padrão no Rio de Janeiro" },
+      {
+        name: "description",
+        content:
+          "Corretor especialista em imóveis de alto padrão no Rio de Janeiro. Compra, venda e locação com curadoria, discrição e negociação estratégica.",
+      },
+      { name: "author", content: "Jorge Herrera" },
+      { property: "og:title", content: "Jorge Herrera Imóveis | Alto padrão no Rio de Janeiro" },
+      {
+        property: "og:description",
+        content:
+          "Curadoria de imóveis de alto padrão no Rio de Janeiro com atendimento personalizado e negociação estratégica.",
+      },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { property: "og:site_name", content: "Jorge Herrera Imóveis" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+      },
       {
         rel: "stylesheet",
         href: appCss,
+      },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "RealEstateAgent",
+          name: "Jorge Herrera Imóveis",
+          areaServed: "Rio de Janeiro, RJ",
+          email: "jorgeherrera@terra.com.br",
+          telephone: "+5521964453308",
+          description:
+            "Corretor especialista em imóveis de alto padrão no Rio de Janeiro.",
+        }),
       },
     ],
   }),
@@ -101,9 +130,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR" suppressHydrationWarning>
       <head>
         <HeadContent />
+        {/* Aplica o tema (claro/escuro) antes da hidratação para evitar flash */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem('theme');var d=t?t==='dark':window.matchMedia('(prefers-color-scheme: dark)').matches;if(d)document.documentElement.classList.add('dark');}catch(e){}})();`,
+          }}
+        />
+        {/* Google Analytics — descomente e troque G-XXXXXXXXXX pelo seu ID de medição
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+        <script dangerouslySetInnerHTML={{ __html: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');" }} />
+        */}
       </head>
       <body>
         {children}
