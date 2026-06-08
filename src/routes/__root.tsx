@@ -93,6 +93,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Jorge Herrera Imóveis" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Jorge Herrera Imóveis | Alto padrão no Rio de Janeiro" },
+      { name: "description", content: "Premium Property Showcase is a modern, elegant website for real estate agents." },
+      { property: "og:description", content: "Premium Property Showcase is a modern, elegant website for real estate agents." },
+      { name: "twitter:description", content: "Premium Property Showcase is a modern, elegant website for real estate agents." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/388fd63d-a0e1-4dea-836c-5ae8ddd5afb8/id-preview-3555f78f--51c0f633-36db-413e-b12f-28cf9b15facd.lovable.app-1780958771369.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/388fd63d-a0e1-4dea-836c-5ae8ddd5afb8/id-preview-3555f78f--51c0f633-36db-413e-b12f-28cf9b15facd.lovable.app-1780958771369.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
