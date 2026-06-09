@@ -25,7 +25,7 @@ export function FinalCTA() {
         </p>
         <a
           href={whatsappLink(
-            "Olá, Jorge! Quero receber uma seleção personalizada de imóveis.",
+            "Olá, Vitor! Quero receber uma seleção personalizada de imóveis.",
           )}
           target="_blank"
           rel="noreferrer"

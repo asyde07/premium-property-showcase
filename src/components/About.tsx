@@ -12,7 +12,7 @@ export function About() {
           <div className="relative">
             <img
               src={BROKER_IMG}
-              alt="Jorge Herrera, corretor de imóveis"
+              alt="Vitor Gabriel, corretor de imóveis"
               className="aspect-[4/5] w-full rounded-2xl object-cover"
             />
             <div className="absolute -bottom-6 -right-4 rounded-2xl bg-gold px-7 py-5 text-gold-foreground shadow-xl">
@@ -24,7 +24,7 @@ export function About() {
 
         <Reveal delay={0.15}>
           <span className="text-xs uppercase tracking-[0.3em] text-gold">
-            Sobre Jorge Herrera
+            Sobre Vitor Gabriel
           </span>
           <h2 className="mt-4 font-display text-3xl font-bold leading-tight md:text-5xl">
             Mais do que vender imóveis, eu entrego o lugar certo.
@@ -48,13 +48,13 @@ export function About() {
             </span>
             <a
               href={whatsappLink(
-                "Olá, Jorge! Gostaria de conhecer melhor o seu trabalho.",
+                "Olá, Vitor! Gostaria de conhecer melhor o seu trabalho.",
               )}
               target="_blank"
               rel="noreferrer"
               className="text-sm font-semibold text-gold underline-offset-4 hover:underline"
             >
-              Conversar com o Jorge →
+              Conversar com o Vitor →
             </a>
           </div>
         </Reveal>

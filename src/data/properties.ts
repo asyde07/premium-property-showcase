@@ -150,7 +150,7 @@ export const testimonials: Testimonial[] = [
     name: "Marina Albuquerque",
     role: "Comprou no Leblon",
     quote:
-      "O Jorge entendeu exatamente o que eu procurava e me poupou meses de busca. Negociação impecável e total transparência do início ao fim.",
+      "O Vitor entendeu exatamente o que eu procurava e me poupou meses de busca. Negociação impecável e total transparência do início ao fim.",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
     rating: 5,
   },
@@ -166,7 +166,7 @@ export const testimonials: Testimonial[] = [
     name: "Beatriz e Carlos Lima",
     role: "Alugaram em Botafogo",
     quote:
-      "Atendimento humano e atencioso em cada detalhe. Recomendamos o Jorge para qualquer pessoa que valoriza um trabalho bem feito.",
+      "Atendimento humano e atencioso em cada detalhe. Recomendamos o Vitor para qualquer pessoa que valoriza um trabalho bem feito.",
     avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=200&q=80",
     rating: 5,
   },

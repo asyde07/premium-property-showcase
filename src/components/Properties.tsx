@@ -86,7 +86,7 @@ function PropertyCard({
 
         <a
           href={whatsappLink(
-            `Olá, Jorge! Tenho interesse no imóvel "${property.title}" em ${property.neighborhood}. Pode me passar mais detalhes?`,
+            `Olá, Vitor! Tenho interesse no imóvel "${property.title}" em ${property.neighborhood}. Pode me passar mais detalhes?`,
           )}
           target="_blank"
           rel="noreferrer"
