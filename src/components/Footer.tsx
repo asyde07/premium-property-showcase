@@ -14,7 +14,7 @@ export function Footer() {
     <footer className="bg-foreground text-background">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:grid-cols-3">
         <div>
-          <p className="font-display text-2xl font-bold">Jorge Herrera</p>
+          <p className="font-display text-2xl font-bold">Vitor Gabriel</p>
           <p className="mt-1 text-sm uppercase tracking-[0.25em] text-gold">
             Imóveis · {site.city}
           </p>

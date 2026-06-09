@@ -14,13 +14,13 @@ import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Jorge Herrera Imóveis | Alto padrão no Rio de Janeiro" },
+      { title: "Vitor Gabriel Imóveis | Alto padrão no Rio de Janeiro" },
       {
         name: "description",
         content:
           "Corretor especialista em imóveis de alto padrão no Rio de Janeiro. Compra, venda e locação com curadoria, discrição e negociação estratégica.",
       },
-      { property: "og:title", content: "Jorge Herrera Imóveis | Alto padrão no Rio de Janeiro" },
+      { property: "og:title", content: "Vitor Gabriel Imóveis | Alto padrão no Rio de Janeiro" },
       {
         property: "og:description",
         content:

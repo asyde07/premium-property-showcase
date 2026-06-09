@@ -77,23 +77,23 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Jorge Herrera Imóveis | Alto padrão no Rio de Janeiro" },
+      { title: "Vitor Gabriel Imóveis | Alto padrão no Rio de Janeiro" },
       {
         name: "description",
         content:
           "Corretor especialista em imóveis de alto padrão no Rio de Janeiro. Compra, venda e locação com curadoria, discrição e negociação estratégica.",
       },
-      { name: "author", content: "Jorge Herrera" },
-      { property: "og:title", content: "Jorge Herrera Imóveis | Alto padrão no Rio de Janeiro" },
+      { name: "author", content: "Vitor Gabriel" },
+      { property: "og:title", content: "Vitor Gabriel Imóveis | Alto padrão no Rio de Janeiro" },
       {
         property: "og:description",
         content:
           "Curadoria de imóveis de alto padrão no Rio de Janeiro com atendimento personalizado e negociação estratégica.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "Jorge Herrera Imóveis" },
+      { property: "og:site_name", content: "Vitor Gabriel Imóveis" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Jorge Herrera Imóveis | Alto padrão no Rio de Janeiro" },
+      { name: "twitter:title", content: "Vitor Gabriel Imóveis | Alto padrão no Rio de Janeiro" },
       { name: "description", content: "Premium Property Showcase is a modern, elegant website for real estate agents." },
       { property: "og:description", content: "Premium Property Showcase is a modern, elegant website for real estate agents." },
       { name: "twitter:description", content: "Premium Property Showcase is a modern, elegant website for real estate agents." },
@@ -118,7 +118,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "RealEstateAgent",
-          name: "Jorge Herrera Imóveis",
+          name: "Vitor Gabriel Imóveis",
           areaServed: "Rio de Janeiro, RJ",
           email: "jorgeherrera@terra.com.br",
           telephone: "+5521964453308",

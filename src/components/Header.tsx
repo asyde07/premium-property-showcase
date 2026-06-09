@@ -36,7 +36,7 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6">
         <a href="#hero" className="flex flex-col leading-none">
           <span className="font-display text-xl font-bold tracking-tight">
-            Jorge Herrera
+            Vitor Gabriel
           </span>
           <span className="text-[0.65rem] uppercase tracking-[0.25em] text-gold">
             Imóveis · {site.city}

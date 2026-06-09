@@ -15,7 +15,7 @@ export function Contact() {
   // O formulário não usa backend: monta a mensagem e abre o WhatsApp.
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const text = `Olá, Jorge! Meu nome é ${form.name}.
+    const text = `Olá, Vitor! Meu nome é ${form.name}.
 Interesse: ${form.interest}.
 Telefone: ${form.phone}.
 ${form.message ? `Mensagem: ${form.message}` : ""}`;
@@ -76,7 +76,7 @@ ${form.message ? `Mensagem: ${form.message}` : ""}`;
               type="submit"
               className="w-full rounded-full bg-gold py-3.5 text-sm font-semibold text-gold-foreground transition-transform hover:scale-[1.02]"
             >
-              Falar com o Jorge agora
+              Falar com o Vitor agora
             </button>
           </form>
 

@@ -5,7 +5,7 @@ import { whatsappLink } from "@/lib/site";
 export function WhatsAppFloat() {
   return (
     <motion.a
-      href={whatsappLink("Olá, Jorge! Vim pelo site e gostaria de mais informações.")}
+      href={whatsappLink("Olá, Vitor! Vim pelo site e gostaria de mais informações.")}
       target="_blank"
       rel="noreferrer"
       aria-label="Falar no WhatsApp"
